@@ -1,0 +1,26 @@
+.nav-ul {
+	list-style-type: none;
+}
+
+.nav-ul li {
+	float: left;
+}
+
+.nav-ul li:last-child {
+	clear: right;
+}
+
+.nav-ul li a {
+	display: block;
+	text-align: center;
+	padding: 0px 8px;
+	text-decoration: none;
+}
+
+.nav-active {
+	background-color: #4CAF50;
+}
+
+.nav-ul li a:hover:not(.nav-active) {
+	/* background-color: #111; */
+}

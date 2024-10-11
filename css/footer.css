@@ -1,0 +1,36 @@
+#body-footer {
+	background-color: #0377e1;
+}
+
+.bf-1-line {
+	padding: 20px 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+.bf-2-line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bf-2-line img {
+	margin-right: 10px;
+}
+
+.bf-2-line p {
+	margin: 0px 10px;
+	color: #fff;
+	font-size: 18px
+}
+
+.bf-3-line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bf-3-line img {
+	margin: 20px 20px;
+}

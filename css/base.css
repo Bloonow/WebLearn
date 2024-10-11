@@ -1,0 +1,76 @@
+/* Excel Bloonow */
+
+body, p, ul, input, button {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.relative {
+	position: relative;
+}
+
+.center-h {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center-v {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.w100-percent {
+	width: 100%;
+}
+
+.w80-percent {
+	width: 80%;
+}
+
+.w1900 {
+	width: 1900px;
+}
+
+.w1500 {
+	width: 1500px;
+}
